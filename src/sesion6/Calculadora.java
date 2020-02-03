@@ -55,20 +55,20 @@ public class Calculadora {
 			}
 			return div;
 		}
-		public void sleep1s() {
+	public void sleep1s() {
 			System.out.println("Incio del metodo sleep");
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}
-			System.out.println("Fin del metodo sleep");
+		}
+			System.out.println("Fin del metodo sleep"); 
 			
 		}
 		
-	
-		}
+}
+		
 		
 
 
