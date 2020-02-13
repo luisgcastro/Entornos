@@ -12,7 +12,8 @@ public class main {
 		 * @see CalculadoraPRO
 		 * @param args
 		 */
-		public static void main(String[] args) {
+		@SuppressWarnings("deprecation")
+		public main(String[] args) {
 			
 			CalculadoraPRO calc = new CalculadoraPRO();
 			
@@ -23,4 +24,5 @@ public class main {
 		}
 
 	}
+
 
